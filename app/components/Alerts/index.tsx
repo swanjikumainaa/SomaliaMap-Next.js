@@ -48,6 +48,7 @@ const Map = () => {
         iconUrl: `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svgString)}`,
         iconSize: [24, 24],
         iconAnchor: [12, 24],
+        
       });
 
       const marker = L.marker([location.latitude, location.longitude], { icon: locationIcon }).addTo(map);
